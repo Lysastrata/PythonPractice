@@ -1,0 +1,18 @@
+form{
+  width: 45%;
+  border-right: black 5px solid;
+  /*padding-right: */
+  display: inline-block;
+  vertical-align: top;
+}
+input{
+  display: block;
+}
+.submit{
+  background-color: #ADE3EF
+}
+.result{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}

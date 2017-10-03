@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>amadon checkout</title>
+  </head>
+  <body>
+    <h2>Thank you for your business!</h2>
+    <p>we charged your credit card for ${{request.session.amount}}</p>
+    <p>you have ordered {{request.session.count}} items so far and spent ${{request.session.total}} with amadon.com!</p>
+    <a href="http://localhost:8000/amadon">Go back</a>
+  </body>
+</html>
